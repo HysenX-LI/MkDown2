@@ -33,9 +33,6 @@
         {{ name }}
       </template>
     </nav-menu-item>
-    <a href="https://github.com/kholid060/mkdown2" target="_blank" rel="noreferrer noopener">
-      <v-mdi name="mdi-github"></v-mdi>
-    </a>
   </div>
 </template>
 <script>
