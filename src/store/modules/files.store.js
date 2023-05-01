@@ -70,12 +70,12 @@ export default {
 
         if (files === null) {
           const defaultContent =
-            '# MkDown\n\nMkDown is an online markdown editor built with [vueJs](https://vuejs.org). How to use MkDown Markdown Editor:\n\n- Type some markdown in left side\n- See the preview on right side\n- And Voilà\n\n## Feature\n\n- Import Markdown file from your pc\n- Import your HTML file and convert it to markdown\n- Export your document as a Markdown file, HTML or HTML styled file';
+            '# MkDown\n\n How to use MkDown Markdown Editor:\n\n- Type some markdown in left side\n- See the preview on right side\n- And Voilà\n\n## Feature\n\n- Import Markdown file from your pc\n- Import your HTML file and convert it to markdown\n- Export your document as a Markdown file, HTML or HTML styled file';
 
           dispatch('add', {
             activate: true,
             data: {
-              title: 'Welcome!!',
+              title: 'MkDown',
               content: defaultContent,
             },
           });
